@@ -18,7 +18,8 @@ import { Bar, Doughnut, Line } from "react-chartjs-2"
 ChartJS.register(CategoryScale, LinearScale, BarElement,
   LineElement, PointElement, ArcElement, Title, Tooltip, Legend)
 
-const API    = "http://localhost:8000"
+//const API    = "http://localhost:8000"
+const API = "https://seasoncredit.onrender.com"
 const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun",
                 "Jul","Aug","Sep","Oct","Nov","Dec"]
 
