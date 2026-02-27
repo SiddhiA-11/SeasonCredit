@@ -16,7 +16,8 @@ import { Bar, Doughnut, Line, Radar } from "react-chartjs-2"
 ChartJS.register(CategoryScale, LinearScale, BarElement, LineElement,
   PointElement, ArcElement, RadialLinearScale, Title, Tooltip, Legend, Filler)
 
-const API    = "http://localhost:8000"
+//const API    = "http://localhost:8000"
+const API = "https://seasoncredit-1-c2hg.onrender.com"
 const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
 
 const REVENUE_PATTERNS = {
